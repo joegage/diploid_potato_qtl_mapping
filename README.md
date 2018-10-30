@@ -12,5 +12,5 @@ QTL mapping in these scripts is performed by fitting multiple linear regression 
 
 ## Genotypic and phenotypic data
 
-* **W4M6_haplotype_bins_split.bed**: Haplotype designations for each individual at each recombination bin.  Columns 1-3 contain chromosome, haplotype bin start coordinate, and haplotype bin end coordinate. Subsequent pairs of columns contain binary scores for W4 and M6 allele, respectively. For example, `chr01	0	873946	1	0` corresponds to a bin on chromosome 1 spanning the physical coordinates from 0 to 873946. The individual has W4 haplotype `1` and M6 haplotype `0`. 
+* **W4M6_haplotype_bins_split.bed**: Haplotype designations for each individual at each recombination bin.  Columns 1-3 contain chromosome, haplotype bin start coordinate, and haplotype bin end coordinate. Subsequent pairs of columns contain binary scores for W4 and M6 alleles, respectively. For example, `chr01	0	873946	1	0` corresponds to a bin on chromosome 1 spanning the physical coordinates from 0 to 873946. The individual has W4 haplotype `1` and M6 haplotype `0`. 
 * **yield_phenological_traits_allGenos.csv**: contains BLUPs for yield, tuber weight, and tuber number; intercept and slope terms from longitudinal random regression modelling of plant height; and the binary response for growth habit (labelled as 'Height_Group').
